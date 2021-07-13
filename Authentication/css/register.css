@@ -1,0 +1,75 @@
+/* All styles */
+header, footer, nav, ul, li, div, p, body {
+   font-family: 'Inter', Verdana, Tahoma, "Trebuchet MS", "DejuVu Sans", "Bitstream Vera Sans", sans-serif;
+
+}
+
+/* Header styling*/
+header {
+	background-color: #65B168;
+	height: 3.875em; //62px
+	box-sizing: border-box;
+}
+
+header h1#logo {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+
+	float: left;
+	width: 400px;
+	margin: 25px 20px;
+}
+
+header nav {
+	float: right;
+	width: 700px;
+	height: 60px;
+
+	//margin: 30px 0px;
+	box-sizing: border-box;
+}
+
+nav ul {
+	border: 1px solid black;
+	//height: 50px;
+	margin: 10px 0px;
+	padding: 5px 0px;
+
+	box-sizing: border-box;
+}
+
+nav ul li {
+	border: 1px solid black;
+	display: inline;
+	margin: 0px 34px;
+
+	box-sizing: border-box;
+}
+
+header nav li a:link{
+	border: 1px solid black;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	text-decoration: none;
+
+}
+
+/* Register form styling */
+form.register-form {
+	border: 1px solid black;
+	float: left;
+	width: 600px;
+	box-sizing: border-box;
+}
+
+fieldset {
+	width: auto;
+}
+
+legend {
+	text-align: center;
+
+}
+
