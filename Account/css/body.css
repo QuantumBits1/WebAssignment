@@ -1,0 +1,60 @@
+/*****main page styles*****/
+
+h2.heading {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+
+	margin-bottom: 1em;
+}
+
+input[type=text], input[type=password], input[type=number], input[type=date], select, option {
+	width: 50%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	resize: vertical;
+}
+
+label {
+	width: 10em;
+	margin-bottom: 1em;
+	padding: 12px 12px 12px 0;
+	display: inline-block;
+	text-align: left;
+}
+
+/********** Body contents styling **********/
+
+body {
+    margin: 0;
+    background-color: #DEF2F1;
+  }
+  
+  .container {
+      overflow: auto;
+      padding: 0px;
+  }
+  
+  .row {
+      overflow: auto;
+  }
+  
+  .column-25 {
+      float: left;
+      width:20%;
+      margin-top: 5em;
+  }
+  
+  .column-75 {
+      float: left;
+      width: 70%;
+      border: 2px solid red;
+      background-color: #ffffff;
+      border-radius: 12px;
+      margin-top: 5em;
+  }
+  
+  .content {
+      padding: 2em 2em;
+  }

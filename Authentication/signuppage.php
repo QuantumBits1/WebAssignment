@@ -91,6 +91,5 @@
 </div>
 	</section>
 	  <!-- Javascript code to show/hide sidebar -->
-  <?php include 'templates/footer.php'; ?>
 </body>
 </html>

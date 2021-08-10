@@ -1,13 +1,12 @@
 <head lang="en">
 	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="refresh" content="time; URL=new_url" />
   	<style>
-  		@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+  		@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
   	</style>
-  	<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-    <title>View User's Account</title>
+    <title></title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" integrity="sha512-9BwLAVqqt6oFdXohPLuNHxhx36BVj5uGSGmizkmGkgl3uMSgNalKc/smum+GJU/TTP0jy0+ruwC3xNAk3F759A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/admin_style.css" />
 </head>

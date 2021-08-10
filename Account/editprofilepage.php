@@ -1,6 +1,9 @@
-<?php session_start(); ?>
+<?php
+	session_start();
 
-<?php include 'includes/editprofile.php'; ?>
+?>
+
+<!-- <?php include 'includes/editprofile.php'; ?> -->
 
 <?php include 'includes/searchprofile.php'; ?>
 
@@ -9,19 +12,14 @@
 	<?php include 'templates/head.php'; ?>
 
 <body>
-	<?php include 'templates/header.php'; ?>
+	<?php include 'templates/sidebar.php'; ?>
 
-	<div class="container">
-	    <div class="row">
-	    	<div class="column-25">
-				<?php include 'templates/sidebar.php'; ?>
-	    	</div>
-	    	<div class="column-75">
-	    		<div class="content">
-						<?php
-						 $entry = mysqli_fetch_assoc($result);
-						 ?>
-	    			<form id="editprofile-form" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>?action=search&uid=<?php echo $entry['User_ID']; ?>" method="post">
+	<main>
+	    <div>
+	    	<div></div>
+	    	<div>
+	    		<div>
+	    			<form id="editprofile-form" action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>?action=search&uid=<?php echo $entry['User_ID']; ?>" method="post">
 					    <h2 class="heading" id="editprofile">Edit Profile</h2>
 					    <p>
 					      <label>Username</label>
@@ -59,11 +57,10 @@
 					</form>
 				</div>
 	    	</div>
-
 	    </div>
-	</div>
-
-	<!-- Javascript code to show/hide sidebar -->
- 	<?php include 'templates/footer.php'; ?>
+	</main>
+	
+	<script src="js/toggle.js"></script>
+	<script src="js/changeTitle.js"></script>
 </body>
 </html>

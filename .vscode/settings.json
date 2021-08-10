@@ -1,0 +1,8 @@
+{
+    "liveServer.settings.port": 5501,
+    "phpserver.phpConfigPath": "C:\\MAMP\\conf\\php7.4.1\\php.ini",
+    "phpserver.phpPath": "C:\\MAMP\\bin\\php\\php7.4.1\\php.exe",
+    "python.analysis.autoSearchPaths": false,
+    "phpserver.router": "",
+    "phpserver.relativePath": "C:\\MAMP\\htdocs\\www\\WebAssignment"
+}

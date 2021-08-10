@@ -1,0 +1,39 @@
+/*****Form: Edit Profile, Edit Bank Account, Edit Credit Card styles*****/
+form#editprofile-form, form#editbankacc-form, form#editcreditcard-form {
+	padding: 2em 2em;
+}
+
+h2#editprofile, h2#editbankacc, h2#editcreditcard {
+	margin-left: 15em;
+}
+
+div.buttons-group {
+	float: right;
+	margin: 1em 18em;
+}
+
+form input[readonly=true] {
+	background-color: #ccc;
+}
+
+span.error {
+	font-weight: normal;
+	font-size: 12px;
+	color: #F53525;
+	text-align: center;
+}
+
+button.apply-button, button.add-button {
+	background-color: #2B7A78;
+	color: white;
+	margin-left: 23em;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	float: left;
+}
+
+button.apply-button:hover, button.add-button:hover {
+	background-color: #1b4b4a;
+}

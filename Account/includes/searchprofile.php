@@ -1,12 +1,18 @@
 <?php
 	/**********SEARCH USER ACCOUNT INFO**********/
-  require_once '../Database/connectdatabase.php';
+  require_once '../Database/database.php';
 
-  if(isset($_SESSION['uid'])){
+  $uid = '1';
+  $_SESSION['uid'] = $uid;
+
+  if(isset($_SESSION['uid'])) {
       $uid = $_SESSION['uid'];
 
-      $sql = "SELECT a.*, b.*, c.* FROM User as a, Bankaccount as b, creditcard as c WHERE a.User_ID=b.User_ID AND a.User_ID=c.User_ID AND a.User_ID=$uid";  //Search current user from database
-      $result = mysqli_query($conn,$sql);
+      $db = new Database();
+      $db->connectDatabase();
+      //Search current user from database
+      $sql = "SELECT * FROM User WHERE User_ID=$uid";
+      $entry = $db->execute($sql);
   }
 
 ?>

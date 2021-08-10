@@ -1,8 +1,30 @@
-html, body, header, footer, hgroup, nav, article, section, figure, figcaption, h1, h2, h3, ul, li, body, div, p, img
-{
+* {
    margin: 0;
    padding: 0;
+   border: 0;
    font-size: 100%;
    vertical-align: baseline;
-   border: 0;
+   box-sizing: border-box;
+}
+
+:root {
+   /* color variables */
+   --clr-primary: #2e77ae;
+   --clr-secondary: #E0EAF5;
+   /* border radius */
+   --radius: 0.2rem;
+}
+
+body {
+	font-family: 'Comfortaa', "Trebuchet MS", "DejuVu Sans", "Bitstream Vera Sans", cursive, sans-serif;
+	
+}
+
+/* style the scrollbar on the browser */
+body::-webkit-scrollbar {
+   width: 0.25rem;
+}
+
+body::-webkit-scrollbar-track {
+   background: var(--clr-secondary);
 }

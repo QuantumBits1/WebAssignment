@@ -1,9 +1,16 @@
 <header>
-    <h1 id="logo"><a href="../User/index.php">Organic Groceries Online Store</a></h1>
-    <nav>
-      <ul>
-      <li><a id="login" href="loginpage.php">Login</a></li>
-      <li><a id="signup" href="signuppage.php">Sign Up</a></li>
-      </ul>
-    </nav>
+  <nav>
+    <div class="toggle-button"><i class="fas fa-bars fa-3x"></i></div>
+    <ul class="nav-list">
+      <li class="nav-item">
+        <a><i href="../User/index.php" class="fas fa-seedling fa-4x"></i>Organico</a>
+      </li>
+      <li class="nav-item">
+        <a id="login" href="loginpage.php">Login</a>
+      </li>
+      <li class="nav-item">
+        <a id="signup" href="signuppage.php">Sign Up</a>
+      </li>
+    </ul>
+  </nav>
 </header>

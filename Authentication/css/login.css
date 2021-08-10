@@ -1,5 +1,5 @@
 /* All styles */
-header, footer, nav, div, p, body {
+body {
    font-family: 'Inter', Verdana, Tahoma, "Trebuchet MS", "DejuVu Sans", "Bitstream Vera Sans", sans-serif;
 
 }
@@ -7,7 +7,7 @@ header, footer, nav, div, p, body {
 /* Header styling*/
 header {
 	background-color: #65B168;
-	height: 3.875em; //62px
+	height: 3.875em;
 	box-sizing: border-box;
 }
 
@@ -26,13 +26,13 @@ header nav {
 	width: 700px;
 	height: 60px;
 
-	//margin: 30px 0px;
+	margin: 30px 0px;
 	box-sizing: border-box;
 }
 
 nav ul {
 	border: 1px solid black;
-	//height: 50px;
+	height: 50px;
 	margin: 10px 0px;
 	padding: 5px 0px;
 

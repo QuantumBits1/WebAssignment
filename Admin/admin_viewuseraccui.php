@@ -12,7 +12,7 @@
 	<div class="container">
     <div class="row">
       <div class="column-25">
-        <?php include 'templates/sidebar.php'; ?>
+        
       </div>
       <div class="column-75">
         <form class="viewuseracc-form" method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>?action=search">
